@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Aplicación con Sockets</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <center>
+    <font color = "E57A22">
+        <h1>Bienvenido a mis ejercicios, Esto es Lenguajes y autómatas</h1>
+    </font>
+      
+  </center>
+ 
+  <div id="messages"></div>
+  <br/>
+    
+    <p id="vocales"></p>
+    <p id="cantidadpalabras"></p>
+    <p id="numeros"></p>
+    <p id="Mayusculas"></p>
+    <p id="Finvocal"></p>
+
+  <form onsubmit="return addMessage(this)">
+    <input type="text" id="username" placeholder="Ingresa palabras" >
+    <input type="text" id="texto" placeholder="Cuéntanos algo!...">
+    <input type="submit" value="Enviar!">
+  </form>
+  <body bgcolor="F1D0E9"> 
+</body>
+</html>
